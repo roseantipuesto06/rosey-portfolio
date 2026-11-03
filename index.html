@@ -1,0 +1,611 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rosey. | Personal Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <a href="#" class="logo" onclick="showTab('home'); return false;">
+        rosey.
+    </a>
+
+    <nav>
+        <button class="nav-btn active" onclick="showTab('home', this)">Home</button>
+        <button class="nav-btn" onclick="showTab('about', this)">About</button>
+        <button class="nav-btn" onclick="showTab('projects', this)">Projects</button>
+        <button class="nav-btn" onclick="showTab('blog', this)">Blog</button>
+        <button class="nav-btn" onclick="showTab('contact', this)">Contact</button>
+    </nav>
+</header>
+
+<main>
+
+    <!-- HOME PAGE -->
+    <section id="home" class="page active">
+
+        <div class="hero">
+
+            <div class="hero-text">
+                <p class="eyebrow">✦ WELCOME TO MY LITTLE SPACE</p>
+
+                <h1>
+                    Hello, I'm<br>
+                    <span>Princess Rose.</span>
+                </h1>
+
+                <h3 class="subtitle">
+                    Second-Year BSIT Student
+                </h3>
+
+                <p class="description">
+                    Just a girl with big dreams, a love for
+                    creativity, coffee, and new adventures.
+                    Currently enjoying my journey as a student
+                    while learning, working, and discovering
+                    more about myself.
+                </p>
+
+                <div class="hero-buttons">
+                    <button class="btn" onclick="showTab('about')">
+                        Get to Know Me ↗
+                    </button>
+
+                    <button class="btn btn-outline"
+                        onclick="showTab('projects')">
+                        My Projects
+                    </button>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="image-frame">
+                    <img src="images/rose.jpg"
+                         alt="Princess Rose's profile picture">
+                </div>
+
+                <span class="floating-star star-one">✦</span>
+                <span class="floating-star star-two">✧</span>
+                <span class="floating-star star-three">♡</span>
+                <span class="image-caption">halo welcome ♡</span>
+            </div>
+
+        </div>
+
+        <div class="stats">
+
+            <div class="stat">
+                <h2 id="homeAge">19</h2>
+                <p>Years Old</p>
+            </div>
+
+            <div class="stat">
+                <h2>2nd</h2>
+                <p>Year BSIT</p>
+            </div>
+
+            <div class="stat">
+                <h2>💜</h2>
+                <p>Favorite Color</p>
+            </div>
+
+        </div>
+
+        <div class="section">
+
+            <h2 class="section-title">
+                A little bit <span>about me.</span>
+            </h2>
+
+            <p class="section-description">
+                Some things that make me happy and make me who I am.
+            </p>
+
+            <div class="card-grid">
+
+                <div class="card">
+                    <div class="card-icon">💻</div>
+                    <h3>IT Student</h3>
+                    <p>
+                        Exploring technology, learning programming,
+                        and improving my skills one step at a time.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">☕</div>
+                    <h3>Coffee & Matcha</h3>
+                    <p>
+                        I enjoy making different drinks, especially
+                        coffee and matcha. Being a barista makes me
+                        appreciate the art of drink-making even more.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <div class="card-icon">🏐</div>
+                    <h3>Sports Lover</h3>
+                    <p>
+                        I love playing volleyball and would love
+                        to try tennis soon.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="quote">
+            "A little progress every day adds up to big results."
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT PAGE -->
+    <section id="about" class="page">
+
+        <h1 class="page-title">
+            About <span>Me.</span>
+        </h1>
+
+        <p class="page-description">
+            Get to know the person behind this little portfolio.
+        </p>
+
+        <div class="about-layout">
+
+            <div class="about-photo card">
+                <img src="images/rose.jpg"
+                     alt="Princess Rose">
+                <h3>Princess Rose T. Antipuesto</h3>
+                <p>Just living, learning, and dreaming. ♡</p>
+            </div>
+
+            <div class="card about-information">
+
+                <h2>Hello there! ✨</h2>
+
+                <p>
+                    I'm Princess Rose T. Antipuesto, a 19-year-old
+                    second-year Bachelor of Science in Information
+                    Technology student from Lapu-Lapu City, Cebu.
+                </p>
+
+                <p>
+                    I'm a cheerful and curious person who loves
+                    trying new things, exploring different interests,
+                    playing sports, and spending time with people
+                    who matter to me.
+                </p>
+
+                <p>
+                    Aside from studying, I currently work as a barista.
+                    I enjoy preparing coffee and experimenting with
+                    different drinks. I also love matcha!
+                </p>
+
+                <p>
+                    I have many dreams for my future. I want to finish
+                    my studies, build a career, travel around the world,
+                    experience new adventures, and most importantly,
+                    spoil my family and give back to them.
+                </p>
+
+                <div class="personal-info">
+
+                    <div class="info-row">
+                        <span>Full Name</span>
+                        <strong>Princess Rose T. Antipuesto</strong>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Birthday</span>
+                        <strong>November 29, 2006</strong>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Age</span>
+                        <strong id="aboutAge">19 years old</strong>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Location</span>
+                        <strong>Lapu-Lapu City, Cebu</strong>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Education</span>
+                        <strong>2nd Year BSIT</strong>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Occupation</span>
+                        <strong>Barista</strong>
+                    </div>
+
+                    <div class="info-row">
+                        <span>Favorite Color</span>
+                        <strong>Pastel Purple 💜</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- HOBBIES -->
+        <div class="section">
+
+            <h2 class="section-title">Things I <span>Love.</span></h2>
+
+            <div class="card-grid">
+
+                <div class="card hobby-card">
+                    <div class="card-icon">🏐</div>
+                    <h3>Volleyball</h3>
+                    <p>
+                        I enjoy playing volleyball and having
+                        fun while staying active.
+                    </p>
+                </div>
+
+                <div class="card hobby-card">
+                    <div class="card-icon">🎾</div>
+                    <h3>Tennis</h3>
+                    <p>
+                        One of the sports I really want to learn
+                        and experience in the future.
+                    </p>
+                </div>
+
+                <div class="card hobby-card">
+                    <div class="card-icon">☕</div>
+                    <h3>Coffee Making</h3>
+                    <p>
+                        I enjoy making coffee and experimenting
+                        with different flavors and drinks.
+                    </p>
+                </div>
+
+                <div class="card hobby-card">
+                    <div class="card-icon">🍵</div>
+                    <h3>Matcha</h3>
+                    <p>
+                        A favorite drink that I can enjoy
+                        anytime.
+                    </p>
+                </div>
+
+                <div class="card hobby-card">
+                    <div class="card-icon">🌍</div>
+                    <h3>Traveling</h3>
+                    <p>
+                        I dream of visiting different countries
+                        and experiencing different cultures.
+                    </p>
+                </div>
+
+                <div class="card hobby-card">
+                    <div class="card-icon">🎮</div>
+                    <h3>Entertainment</h3>
+                    <p>
+                        I enjoy mobile games, movies, TikTok,
+                        and discovering new things.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- SKILLS -->
+        <div class="section">
+
+            <h2 class="section-title">My <span>Skills.</span></h2>
+
+            <div class="card-grid">
+
+                <div class="card skill-card">
+                    <h3>Technology</h3>
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">Java</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">Computer Troubleshooting</span>
+                </div>
+
+                <div class="card skill-card">
+                    <h3>Barista Skills</h3>
+                    <span class="tag">Coffee Preparation</span>
+                    <span class="tag">Drink Making</span>
+                    <span class="tag">Customer Service</span>
+                    <span class="tag">Teamwork</span>
+                </div>
+
+                <div class="card skill-card">
+                    <h3>Personal Skills</h3>
+                    <span class="tag">Adaptability</span>
+                    <span class="tag">Time Management</span>
+                    <span class="tag">Communication</span>
+                    <span class="tag">Willingness to Learn</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- GOALS -->
+        <div class="section">
+
+            <h2 class="section-title">My Future <span>Goals.</span></h2>
+
+            <div class="timeline">
+
+                <div class="timeline-item">
+                    <span class="timeline-year">CURRENT</span>
+                    <h3>Enjoy My College Journey</h3>
+                    <p>
+                        Continue learning as a BSIT student,
+                        improving my skills, and completing
+                        my academic requirements.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-year">NEXT CHAPTER</span>
+                    <h3>Graduate and Build My Career</h3>
+                    <p>
+                        Finish my degree and find opportunities
+                        where I can grow professionally.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-year">DREAM LIFE</span>
+                    <h3>Travel Around the World</h3>
+                    <p>
+                        Explore different countries, experience
+                        new cultures, and create unforgettable memories.
+                    </p>
+                </div>
+
+                <div class="timeline-item">
+                    <span class="timeline-year">BIGGEST DREAM</span>
+                    <h3>Give Back to My Family</h3>
+                    <p>
+                        Become successful enough to spoil my family
+                        and give them the comfortable life they deserve.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS PAGE -->
+    <section id="projects" class="page">
+
+        <h1 class="page-title">
+            My <span>Projects.</span>
+        </h1>
+
+        <p class="page-description">
+            A showcase of my projects and experiences
+            as an IT student.
+        </p>
+
+        <div class="card-grid">
+
+            <div class="card project-card">
+
+                <div class="project-image dresscart">
+                    🛍️
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-category">WEB DEVELOPMENT</span>
+
+                    <h3>DressCart Online Dress Shopping</h3>
+
+                    <p>
+                        A web-based dress shopping system where
+                        customers can browse dresses, view product
+                        details, add items to their cart, and
+                        proceed to checkout.
+                    </p>
+
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+
+                </div>
+
+            </div>
+
+
+            <div class="card project-card">
+
+                <div class="project-image portfolio">
+                    💜
+                </div>
+
+                <div class="project-content">
+
+                    <span class="project-category">PERSONAL WEBSITE</span>
+
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+                        A personal website created to introduce
+                        myself, share my hobbies, showcase my
+                        projects, and express my goals.
+                    </p>
+
+                    <span class="tag">HTML</span>
+                    <span class="tag">CSS</span>
+                    <span class="tag">JavaScript</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="quote">
+            "Learning by creating, growing by trying."
+        </div>
+
+    </section>
+
+
+    <!-- BLOG PAGE -->
+    <section id="blog" class="page">
+
+        <h1 class="page-title">
+            My <span>Little Journal.</span>
+        </h1>
+
+        <p class="page-description">
+            Random thoughts, experiences, and things
+            I want to share.
+        </p>
+
+        <div class="card-grid">
+
+            <div class="card blog-card">
+
+                <div class="card-icon">💻</div>
+
+                <span class="project-category">STUDENT LIFE</span>
+
+                <h3>My Journey as an IT Student</h3>
+
+                <p>
+                    Being an IT student is a journey of learning
+                    and discovering new things. There are
+                    challenging lessons, but every experience
+                    helps me improve.
+                </p>
+
+            </div>
+
+
+            <div class="card blog-card">
+
+                <div class="card-icon">☕</div>
+
+                <span class="project-category">WORK & PASSION</span>
+
+                <h3>Life Behind the Coffee Bar</h3>
+
+                <p>
+                    Working as a barista has allowed me to
+                    enjoy making drinks, learning new techniques,
+                    and interacting with different people.
+                    Coffee and matcha make the experience even better!
+                </p>
+
+            </div>
+
+
+            <div class="card blog-card">
+
+                <div class="card-icon">🌷</div>
+
+                <span class="project-category">PERSONAL GROWTH</span>
+
+                <h3>Becoming a Better Version of Myself</h3>
+
+                <p>
+                    I believe that growing up means learning
+                    from experiences, taking chances, and
+                    continuing to work toward the life I want.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT PAGE -->
+    <section id="contact" class="page">
+
+        <div class="contact-panel">
+
+            <p class="eyebrow">✦ THANK YOU FOR VISITING</p>
+
+            <h1>Let's stay <span>connected.</span></h1>
+
+            <p>
+                Thank you for taking the time to visit my
+                little corner of the internet. I hope you
+                enjoyed getting to know me!
+            </p>
+
+            <div class="contact-photo">
+                <img src="images/rose.jpg" alt="Rose">
+            </div>
+
+            <h2>Princess Rose T. Antipuesto</h2>
+
+            <p>BSIT Student | Barista | Dreamer</p>
+
+            <p>📍 Lapu-Lapu City, Cebu, Philippines</p>
+
+            <div class="quote">
+                "Here's to becoming the person I've always
+                dreamed of being. ♡"
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <a href="#" class="logo"
+       onclick="showTab('home'); return false;">
+        rosey.
+    </a>
+
+    <p>Made with ♡ and a little purple magic.</p>
+
+    <p>© <span id="year"></span> rosey. All rights reserved.</p>
+</footer>
+
+
+<button class="back-top"
+        onclick="window.scrollTo({top:0, behavior:'smooth'})">
+    ↑
+</button>
+
+
+<!-- Connect JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
